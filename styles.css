@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    background-color:antiquewhite; /* Set background color to white */
+    
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+  /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire calculator area */
+    background-position: center; /* Centers the background image */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  input#inputBox {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    color: black;
+  }
+  
+  .button.operator {
+    background-color: #11c1d4; /* Light Green */
+    color: white;
+  }
+  
+  .button.equalBtn {
+    background-color: #641200; /* Dark Green */
+    color: white;
+  }
+  
